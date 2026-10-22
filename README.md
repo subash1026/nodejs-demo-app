@@ -25,7 +25,7 @@ The workflow is defined in `.github/workflows/main.yml`. Every time code is push
 5. **Build & Publish:** Builds the Docker container image and pushes it to Docker Hub as `subash1026/nodejs-demo-app:latest`.
 
 ---
-Running the Project Locally
+🚀Running the Project Locally
 
 1. Direct Node.js Run
 ```bash
@@ -34,3 +34,17 @@ npm install
 
 # Run the app
 npm start
+
+📦 Container Registry
+Docker Hub Repository: subash1026/nodejs-demo-app
+
+Image Tag: latest
+
+Steps to update it on GitHub:
+1. Open your `README.md`file in VS Code.
+2. Replace its content with the text above and save (`Ctrl + S`).
+3. Push the changes to GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Update README with detailed project overview"
+   git push origin main
